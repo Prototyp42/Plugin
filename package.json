@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "source": "src/index.jsx",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build ./src/index.jsx"
+  },
+  "alias": {
+    "react": "./alias/react"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
